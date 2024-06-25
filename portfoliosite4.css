@@ -1,0 +1,141 @@
+@charset "utf-8";
+body{
+	background-color: #3E4259;
+	background-image: url("patroon1t.png");
+	margin: 0;
+}
+.horizontal{
+	display: flex;
+	flex-direction: row;
+}
+aside{
+	position: fixed;
+	
+	width: 35%;
+	background-image: url("boon met touw.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		height:	1080px;
+
+	
+}
+
+.stars{
+	display: flex;
+	flex-direction: column;
+	height: 537px;
+	margin-left: 350px;
+	margin-top: 360px;
+	z-index: 1;
+	
+	
+}
+.Home{
+	width: 252px;
+	height: 107px;
+	margin-left: 15px;
+	
+}
+.Portfolio{
+	margin-top: 40px;
+	margin-left:33px;
+}
+.About{
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.Contact{
+	margin-top: 30px;
+	margin-left: -10px
+}
+
+.SendEmail{
+	background-color:  #352540;
+	border-radius: 35px;
+	width: 877px;
+	height:528px;
+	margin-left: 950px;
+	margin-top: 300px;
+}
+.title{
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+form{
+	width:850px;
+	height: 500px;
+	
+	display: flex;
+	flex-direction: column;
+	
+		
+}
+.subject{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	
+	
+}
+.massage{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 400px;
+	height: 200px;
+}
+textarea{
+	width: 400px;
+	height: 200px;
+	border-radius: 5px;		
+}
+.send{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	
+}
+button{
+	
+	background-color: #D4D6B9;
+	width: 257px;
+	height: 68px;
+	border-radius: 21px;
+	font-family: sirenia;
+	font-size: 44px;
+	color: #352540;
+	
+}
+.socials{
+	width: 877px;
+	height: 151px;
+	margin-left: 950px;
+	margin-top: 100px;
+	background-color: #352540;
+	border-radius: 35px;
+	display: flex;
+	background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='35' ry='35' stroke='%23D9D1A9FF' stroke-width='19' stroke-dasharray='30%2c 20' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
+border-radius: 35px;
+	
+}
+h2{
+	width: 260px;
+	margin-left: 50px;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-family: sirenia;
+	font-size: 44px;
+	font-weight: 500;
+	color: #D4D6B9;
+}
+.soclink{
+	
+	width:517px;
+	height: 151px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	
+}

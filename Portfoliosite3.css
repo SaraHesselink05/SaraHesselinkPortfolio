@@ -1,0 +1,99 @@
+@charset "utf-8";
+body{
+	background-color: #3E4259;
+	background-image: url("patroon1t.png");
+	margin: 0;
+		
+}
+.Horizontal{
+	display: flex;
+	flex-direction: row;
+}
+aside{
+	position: fixed;
+	
+	width: 35%;
+	background-image: url("boon met touw.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		height:	1080px;
+
+	
+}
+
+.stars{
+	display: flex;
+	flex-direction: column;
+	height: 537px;
+	margin-left: 350px;
+	margin-top: 360px;
+	z-index: 1;
+	
+	
+}
+.Home{
+	width: 252px;
+	height: 107px;
+	margin-left: 15px;
+	
+}
+.Portfolio{
+	margin-top: 40px;
+	margin-left:33px;
+}
+.About{
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.Contact{
+	margin-top: 30px;
+	margin-left: 2px
+}
+
+main{
+	margin-left: 800px;
+	margin-top: 50px;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	width: 65%;
+}
+.IDbadge{
+	width: 890px;
+	height: 335px;
+	background-image: url("Group 19.png");
+	background-size: contain;
+	position: absolute;
+}
+.Description1{
+	width: 877px;
+	height: 1004px;
+	background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='35' ry='35' stroke='%23D9D1A9FF' stroke-width='19' stroke-dasharray='30%2c 20' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
+	border-radius: 35px;
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 100px;
+	z-index: -5;
+	
+	
+	
+	
+}
+.Description2{
+	margin-top: 150px;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: sirenia, sans-serif;
+	color:#D4D6B9;
+	font-size: 47px;	
+}
+.Knowladge{
+	width: 877px;
+	height: 479px;
+	margin-left: 100px;
+	margin-top: 1300px;
+	display: flex;
+	flex-direction: row;
+	background-image: url("educatonandstuff.png");
+	background-size: cover;
+}
